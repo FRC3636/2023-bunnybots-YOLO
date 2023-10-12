@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-num = input("What is the train folder numer? ")
+num = input("What is the train folder number? ")
 
 model = YOLO(f'runs/detect/train{num}/weights/best.pt')  # load a custom trained model
 
